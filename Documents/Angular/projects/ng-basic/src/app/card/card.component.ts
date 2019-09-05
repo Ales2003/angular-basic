@@ -47,8 +47,7 @@ export class CardComponent implements OnInit {
     text = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, in.';
 
 
-    inputHandler(event){
-        const value = event.target.value;
-        this.title = value;
+    inputHandler(value){
+            this.title = value;
     }
 }
