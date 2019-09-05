@@ -36,5 +36,7 @@ import {Component} from '@angular/core'
 
 
 export class CardComponent {
+    //declare variable
+    title = 'This is dynamic variable from component app-card';
 
 }
