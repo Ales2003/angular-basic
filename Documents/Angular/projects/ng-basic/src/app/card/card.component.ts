@@ -8,7 +8,7 @@ import {Component} from '@angular/core'
     templateUrl: './card.component.html',
     styleUrls: ['./card.component.css'],
     //можно настраивать интерполяцию
-    interpolation: ['{{', '}}']
+    interpolation: ['[[', ']]']
 })
 
 //Вариант 2 - указание шаблона в темплейт литералaх ``
