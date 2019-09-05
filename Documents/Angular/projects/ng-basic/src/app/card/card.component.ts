@@ -50,4 +50,9 @@ export class CardComponent {
         }
     }
 
+    //methods
+    getInfo(){
+        return 'this is dynamic method'
+    }
+
 }
