@@ -37,34 +37,13 @@ import {Component, OnInit} from '@angular/core'
 
 export class CardComponent implements OnInit {
     ngOnInit(): void {
-        setTimeout(()=>{
-             this.imageUrl = 'https://miro.medium.com/max/1200/1*-8AAdexfOAK9R-AIha_PBQ.png';
-             this.disabled = true;
-        }, 3000);
     }
+    changeTitle(){
+        this.title = 'Title is changed'
+    }
+
     //declare variable
-     title = 'This is dynamic variable from component app-card';
+    title = 'This is dynamic variable from component app-card';
     text = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, in.';
-    number = 42;
 
-    array = [1,1,2,3,4,8,13];
-
-    obj = {
-        name:'Alex',
-        info:{
-            age:35
-        }
-    }
-
-    imageUrl: string = 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/200px-Angular_full_color_logo.svg.png';
-
-    im2 = 'https://miro.medium.com/max/1200/1*-8AAdexfOAK9R-AIha_PBQ.png';
-
-
-    disabled = false;
-
-    //methods
-    getInfo() {
-       return 'this is dynamic method';
-    }
 }
