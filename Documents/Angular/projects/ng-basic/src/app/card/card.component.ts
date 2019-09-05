@@ -43,7 +43,7 @@ export class CardComponent {
 
     array = [1,1,2,3,4,8,13];
 
-    obj = {
+    obj: object = {
         name:'Alex',
         info:{
             age:35
@@ -51,8 +51,7 @@ export class CardComponent {
     }
 
     //methods
-    getInfo(){
-        return 'this is dynamic method'
+    getInfo(): string {
+        return 'this is dynamic method';
     }
-
 }
