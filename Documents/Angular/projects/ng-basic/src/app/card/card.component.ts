@@ -38,5 +38,16 @@ import {Component} from '@angular/core'
 export class CardComponent {
     //declare variable
     title = 'This is dynamic variable from component app-card';
+    text = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, in.';
+    number = 42;
+
+    array = [1,1,2,3,4,8,13];
+
+    obj = {
+        name:'Alex',
+        info:{
+            age:35
+        }
+    }
 
 }
