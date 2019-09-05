@@ -6,9 +6,7 @@ import {Component} from '@angular/core'
     selector: 'app-card', 
     // что будет вставляться - наша разметка, template
     templateUrl: './card.component.html',
-    styleUrls: ['./card.component.css'],
-    //можно настраивать интерполяцию
-    interpolation: ['[[', ']]']
+    styleUrls: ['./card.component.css']    
 })
 
 //Вариант 2 - указание шаблона в темплейт литералaх ``
