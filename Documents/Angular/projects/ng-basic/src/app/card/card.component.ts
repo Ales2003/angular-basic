@@ -39,11 +39,16 @@ export class CardComponent implements OnInit {
     ngOnInit(): void {
     }
     changeTitle(){
-        this.title = 'Title is changed'
+        this.title = 'Title is changed';
     }
 
     //declare variable
     title = 'This is dynamic variable from component app-card';
     text = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, in.';
 
+
+    inputHandler(event){
+        const value = event.target.value;
+        this.title = value;
+    }
 }
