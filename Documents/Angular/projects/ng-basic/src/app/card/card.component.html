@@ -1,5 +1,7 @@
 <div class="card">
-    <h2>{{title}}</h2>
+    <h2 [ngStyle] = "{
+        color: title.length < 5 ? 'blue' : 'green'
+    }" >{{title}}</h2>
     <h2>{{text}}</h2>
 
     <div class="buttons">
